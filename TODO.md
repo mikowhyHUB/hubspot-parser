@@ -12,7 +12,7 @@ Proszę o napisanie skryptu w python (v3), odpalanego z konsoli. Skrypt ten powi
 - [x] figure out how to find 3 newest blog posts
 - [x] figure out how to parse threw blog posts
 - [ ] divide the task into three parts
-   - [ ] Part1 - find 3 newset blogs on landingpage
+   - [x] Part1 - find 3 newset blogs on landingpage
    - [ ] Part2 - parse selected blog posts and count key phrases
 - [ ] polish the code
 
