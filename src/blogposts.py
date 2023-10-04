@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from collections import Counter
+from landingpage import latest_hubspot_articles
 
 # MVP
 
@@ -52,5 +53,11 @@ def display_article_info(url):
 
 
 if __name__ == "__main__":
-    article_url = "https://blog.hubspot.com/marketing/blogging-for-seo"
-    display_article_info(article_url)
+    hubspot_url = "https://blog.hubspot.com/"
+    latest_articles_num = 3
+    article_links = latest_hubspot_articles(hubspot_url, latest_articles_num)
+
+    for article_link in article_links:
+        print('\n')
+        display_article_info(article_link)
+        print("\n", "-"*50)

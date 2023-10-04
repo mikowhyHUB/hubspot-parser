@@ -38,12 +38,4 @@ def latest_hubspot_articles(url, articles_num):
 
     articles.sort(reverse=True)
 
-    for article_link in articles[:articles_num]:
-        date_published = parse_blog_post(article_link)
-        print(article_link, date_published)
-
-
-if __name__ == "__main__":
-    hubspot_url = "https://blog.hubspot.com/"
-    latest_articles_num = 3
-    latest_hubspot_articles(hubspot_url, latest_articles_num)
+    return articles[:articles_num]
