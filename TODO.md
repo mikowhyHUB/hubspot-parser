@@ -15,8 +15,9 @@ Proszę o napisanie skryptu w python (v3), odpalanego z konsoli. Skrypt ten powi
    - [x] Part1 - find 3 newset blogs on landingpage
    - [x] Part2 - parse selected blog posts and count key phrases
    - [x] Part3 - OOP and start script in main.py
-- [ ] polish the code
+- [x] polish the code
 
 - [ ] tests
 - [ ] improve parsing speed
+    - [ ] parse hours only from articles with today's or yesterday date?
 
