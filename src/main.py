@@ -8,10 +8,8 @@ if __name__ == "__main__":
     article_links = lp_parser.latest_hubspot_articles(latest_articles_num)
 
     for article_link in article_links:
-        print('\n')
-        bp_parser = BlogPostParser(article_link)
+        print("\n")
+        print(f"URL: {article_link['link']}")
+        bp_parser = BlogPostParser(article_link["link"])
         bp_parser.display_article_info()
-        print("\n", "-"*50)
-   
-
-    
+        print("\n", "-" * 50)

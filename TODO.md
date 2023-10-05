@@ -11,9 +11,12 @@ Proszę o napisanie skryptu w python (v3), odpalanego z konsoli. Skrypt ten powi
 - [x] choose best module and read documentation
 - [x] figure out how to find 3 newest blog posts
 - [x] figure out how to parse threw blog posts
-- [ ] divide the task into three parts
+- [x] divide the task into three parts
    - [x] Part1 - find 3 newset blogs on landingpage
    - [x] Part2 - parse selected blog posts and count key phrases
-   - [ ] Part3 - OOP and start script in main.py
+   - [x] Part3 - OOP and start script in main.py
 - [ ] polish the code
+
+- [ ] tests
+- [ ] improve parsing speed
 
